@@ -113,3 +113,10 @@ input[type=number] {
 h1, .message, p {
     cursor: default;
 }
+.selectFrom::-webkit-scrollbar, .selectTo::-webkit-scrollbar{
+    display: none;
+}
+.selectFrom, .selectTo{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
